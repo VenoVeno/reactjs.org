@@ -26,7 +26,7 @@ ReactDOM.render(
 can be compiled to this code that does not use JSX:
 
 ```js
-class Hello extends React.Component {
+class Hellooooo extends React.Component {
   render() {
     return React.createElement('div', null, `Hello ${this.props.toWhat}`);
   }
@@ -40,11 +40,6 @@ ReactDOM.render(
 
 If you're curious to see more examples of how JSX is converted to JavaScript, you can try out [the online Babel compiler](babel://jsx-simple-example).
 
-The component can either be provided as a string, as a subclass of `React.Component`, or a plain function.
-
-If you get tired of typing `React.createElement` so much, one common pattern is to assign a shorthand:
-
-```js
 const e = React.createElement;
 
 ReactDOM.render(
